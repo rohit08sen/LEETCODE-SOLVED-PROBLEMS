@@ -9,7 +9,7 @@ class Solution {
         }
         double result = power(x, n);
         if (Double.isInfinite(result)) {
-            return Double.NaN; // Handle overflow, return NaN
+            return Double.NaN;
         } else {
             return result;
         }
